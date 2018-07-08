@@ -1,0 +1,26 @@
+
+.btn-outline-secondary{
+    color:white !important;
+    border-color: #fff !important;
+}
+
+.middle{
+    position:fixed;
+    left: 50%;
+    bottom:20vh;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    color:white;
+    
+}
+
+@media only screen and (max-width: 768px) {
+   
+   .middle{
+    bottom:10%;
+
+   }
+    .space{
+        margin:  2vh 0 0 0; 
+     }
+  }
