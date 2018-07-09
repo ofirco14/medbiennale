@@ -26,7 +26,7 @@ class Navigation extends Component {
         <NavLink exact to="/amoca"   className="paddnav1" activeStyle={{ color: '#b8ad82' , textDecoration: 'none' }}>Amoca</NavLink>
         <NavLink exact to="/about"    className="paddnav1" activeStyle={{ color: '#b8ad82' , textDecoration: 'none' }}>About</NavLink>
         <NavLink exact to="/curators"    className="paddnav1" activeStyle={{ color: '#b8ad82' , textDecoration: 'none' }}>Curators</NavLink>
-        <NavLink   className="paddnav1" exact to="/gethere"   activeStyle={{ color: '#b8ad82' , textDecoration: 'none' }}>Where?</NavLink>
+        <NavLink   className="paddnav1" exact to="/where"   activeStyle={{ color: '#b8ad82' , textDecoration: 'none' }}>Where?</NavLink>
         <NavLink exact to="/partners"   className="paddnav1" activeStyle={{ color: '#b8ad82' , textDecoration: 'none' }}>Partners</NavLink>
         <NavLink exact to="/history"    className="paddnav1" activeStyle={{ color: '#b8ad82' , textDecoration: 'none' }}>History</NavLink>
         <NavLink exact to="/contact"    className="paddnav1" activeStyle={{ color: '#b8ad82' , textDecoration: 'none' }}>Contact</NavLink>

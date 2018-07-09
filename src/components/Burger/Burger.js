@@ -20,7 +20,7 @@ class Burger extends Component {
         <NavLink activeStyle={{ color: 'brown' , textDecoration: 'none' }} exact to="/amoca" id="amoca"   className="paddnav menu-item"><i class="fas fa-users"></i> AMOCA</NavLink>
         <NavLink activeStyle={{ color: 'brown' , textDecoration: 'none' }} exact to="/about" id="about"   className="paddnav menu-item"><i class="fas fa-question"></i> About</NavLink>
         <NavLink activeStyle={{ color: 'brown' , textDecoration: 'none' }} exact to="/curators" id="curators"   className="paddnav menu-item"><i class="fas fa-users"></i> Curators</NavLink>
-        <NavLink activeStyle={{ color: 'brown' , textDecoration: 'none' }} exact to="/gethere" id="gethere"   className="paddnav menu-item"><i class="fas fa-map-marker-alt"></i> Getting here</NavLink>
+        <NavLink activeStyle={{ color: 'brown' , textDecoration: 'none' }} exact to="/where" id="gethere"   className="paddnav menu-item"><i class="fas fa-map-marker-alt"></i> Getting here</NavLink>
         <NavLink activeStyle={{ color: 'brown' , textDecoration: 'none' }} exact to="/partners" id="partners"   className="paddnav menu-item"><i class="fas fa-handshake"></i> Partners</NavLink>
         <NavLink activeStyle={{ color: 'brown' , textDecoration: 'none' }} exact to="/history" id="archive"   className="paddnav menu-item"><i class="fas fa-archive"></i> History</NavLink>
         <NavLink activeStyle={{ color: 'brown' , textDecoration: 'none' }} exact to="/contact" id="contact"   className="paddnav menu-item"><i class="fas fa-headphones"></i> Contact</NavLink>

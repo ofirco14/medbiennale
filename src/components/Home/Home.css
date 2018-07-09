@@ -1,14 +1,7 @@
 @import "../../../node_modules/react-image-gallery/styles/css/image-gallery.css";
 
 
-.introduce{
-    position:absolute;
-    left: 50%;
-    top:430px;
-    transform: translate(-50%, -50%);
-    text-align:center;
-    
-}
+
 .image-gallery-left-nav{
     border:0 !important;
     outline:none !important;
@@ -17,31 +10,8 @@
         border:0 !important;
         outline:none !important;
     }
-    .gallery{
-    
-       
-        width:55vw;
-        text-align:center;
-        height:auto;
-     
 
+    .alwaystop{
+        position:relative;
+        top:20vh;
     }
-    @media only screen and (max-width: 800px) {
-
-
-        .introduce{
-            position:absolute;
-            left: 50%;
-            top:400px; 
-          transform: translate(-50%, -50%);
-            text-align:center;
-            
-        }
-        .gallery{
-    
-            width:100vw;
-            text-align:center;
-         
-    
-        }
-      }
