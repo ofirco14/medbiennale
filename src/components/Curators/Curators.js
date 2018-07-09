@@ -57,7 +57,7 @@ class Curators extends Component {
           <div className="col-12 col-sm-12 col-md-5 col-lg-4 align-self-center text-center">
           <br/>
 
-          <img src={belu} />
+          <img alt="" src={belu} />
         
           </div>
           </div>
@@ -84,7 +84,7 @@ class Curators extends Component {
           <div className="col-12 col-sm-12 col-md-5 col-lg-4 align-self-center text-center">
           <br/>
 
-          <img src={avital} />
+          <img alt="" src={avital} />
         
           </div>
           </div>

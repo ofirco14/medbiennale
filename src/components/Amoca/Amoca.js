@@ -48,8 +48,9 @@ class Amoca extends Component {
           </div>
           <div className="row text-left">
           <div className="col-12 col-sm-12 col-md-12 col-lg-12">
+          <h3 style={{fontWeight:'bold',textDecoration:'underline'}}>Opening Wed, June 17th, 2015 at 17:00</h3>
           <p style={{fontWeight:'bold'}}>
-          <p><h3 style={{textDecoration:'underline'}}>Opening Wed, June 17th, 2015 at 17:00</h3></p>
+         
 
           <p>The Arab Museum of Contemporary Art in Sakhnin, AMOCA, is the first museum of its kind to be established in an Arab city in Israel. AMOCA holds a collection of over 200 contemporary international works of art that combine local contemporary art and international contemporary art, showcasing artists from Arab and Mediterranean countries.  The vision of AMOCA is to promote peace and dialogue by means of art activities, mutual confidence building between neighbors and a strengthening of the values of equality and mutuality, leading towards the creation of an infrastructure for human dialogue and coexistence between communities.</p>
       
@@ -76,7 +77,9 @@ class Amoca extends Component {
 
           <div className="row">
 
-          <div  style={{fontWeight:'bold'}} className="col text-center ">
+          <div  style={{fontWeight:'bold'}} className="col-12 col-sm-6 col-md-6 col-lg-6 text-center">
+          <br/>
+
           <h3>
           Opening Hours
           <br/>
@@ -86,9 +89,10 @@ class Amoca extends Component {
 
 During Ramadan 18/6-20/7 : <br/> Sun-Thu 10:00-14:00
           </div>
-          <div  style={{fontWeight:'bold'}} className="col text-center ">
+          <div  style={{fontWeight:'bold'}} className="col-12 col-sm-6 col-md-6 col-lg-6 text-center">
          
-     
+          <br/>
+
           <h3>
           <Link to='/curators'>Contact Us</Link>
      
@@ -106,11 +110,9 @@ During Ramadan 18/6-20/7 : <br/> Sun-Thu 10:00-14:00
      </p>
           </div>
           </div>
-          <br/>
                {/*ABOUT COMPONENT*/}
      <div className="row text-center">
      <div className="col">
-     <br/>
      <hr style={{borderColor:'rgba(0,0,0,.2)' , height:'1px'}}/>
 
      <div style={{fontWeight:'bold'}} className="copyrights">

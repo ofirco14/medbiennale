@@ -30,8 +30,9 @@ class About extends Component {
       <div className="row">
 
       <div className="col-12 col-sm-12 col-md-12 col-lg-12">
-     <p style={{fontWeight:'bold'}}>
-      <h3>The Mediterranean Biennale</h3>
+      <h3 style={{fontWeight:'bold'}}>The Mediterranean Biennale</h3>
+
+      <p style={{fontWeight:'bold'}}>
       <p>
         The Third Mediterranean Biennale offers an alternative platform which emphasizes the local processes being created in the region and enhances their cultural impact by means of art directed toward the community, art that bridges cultures, emerges from the museum walls, integrates into the city and turns the city into a museum. 
       </p>

@@ -1,11 +1,7 @@
 
 import React, { Component } from 'react';
 import pgimage from '../../img/land.jpg';
-import {
-  BrowserRouter as
-  Route,
-  Link
-} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import './Intro.css';
 
 

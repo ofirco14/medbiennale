@@ -4,7 +4,6 @@ import Burger from '../Burger/Burger';
 import  Navigation from '../Navigation/Navigation';
 import ImageGallery from 'react-image-gallery';
 import ResponsiveEmbed from 'react-responsive-embed';
-import About from '../About/About';
 
 import './Home.css';
 import {Link} from 'react-router-dom';
@@ -122,7 +121,7 @@ class Home extends Component {
      <hr style={{borderColor:'rgba(0,0,0,.2)' , height:'1px'}}/>
      <div className="row">
 
-     <div  style={{fontWeight:'bold'}} className="col text-center align-self-center">
+     <div  style={{fontWeight:'bold'}} className="col-12 col-sm-8 col-md-8 col-lg-8 text-center align-self-center">
      <h3>
       Meet <Link to='/curators'>the  curators</Link> behind the scenes
       <br/>
@@ -130,11 +129,11 @@ class Home extends Component {
       target="_blank"
       rel="noopener noreferrer"
       href="https://www.facebook.com/mediterranean.biennale">
-      <i class="fab fa-facebook-square fa-2x"></i>
+      <i className="fab fa-facebook-square fa-2x"></i>
       </a>
       </h3>
      </div>
-     <div  style={{fontWeight:'bold'}} className="col text-center ">
+     <div  style={{fontWeight:'bold'}} className="col-12 col-sm-4 col-md-4 col-lg-4 text-center">
     
 
      <h3>

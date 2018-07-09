@@ -1,0 +1,12 @@
+.alwaystop{
+    position:relative;
+    top:20vh;
+}
+
+.thankscopyright{
+	position:fixed;
+	bottom:0;
+	left:50%;
+	transform: translate(-50%, 0%);
+
+}

@@ -34,7 +34,7 @@ class Curators extends Component {
         
             <p style={{textDecoration:'underline'}}>Main partner:</p>
             
-            <img src= {require('../../img/partners/pais.png')}/>
+            <img alt="" src= {require('../../img/partners/pais.png')}/>
           </div>
           </div>
           <div className="row text-center">
@@ -49,7 +49,7 @@ class Curators extends Component {
         
             <p style={{textDecoration:'underline'}}>partner:</p>
             
-            <img src= {require('../../img/partners/haaretz.png')}/>
+            <img alt="" src= {require('../../img/partners/haaretz.png')}/>
           </div>
           </div>
           <div style={{fontWeight:'bold'}} className="row text-center">
@@ -62,19 +62,19 @@ class Curators extends Component {
 
           <div className="col-12 col-sm-12 col-md-4 col-lg-4">
         
-          <img src= {require('../../img/partners/galil.png')}/>
+          <img alt="" src= {require('../../img/partners/galil.png')}/>
             
           </div>
           
           <div className="col-12 col-sm-12 col-md-4 col-lg-4">
         
-          <img src= {require('../../img/partners/negev-galil.png')}/>
+          <img alt="" src= {require('../../img/partners/negev-galil.png')}/>
             
           </div>
           
           <div className="col-12 col-sm-12 col-md-4 col-lg-4">
         
-          <img src= {require('../../img/partners/sports-culture.png')}/>
+          <img alt="" src= {require('../../img/partners/sports-culture.png')}/>
             
           </div>
           
@@ -90,19 +90,19 @@ class Curators extends Component {
 
           <div className="col-12 col-sm-12 col-md-4 col-lg-4">
         
-          <img src= {require('../../img/partners/prohelvetia.png')}/>
+          <img alt="" src= {require('../../img/partners/prohelvetia.png')}/>
             
           </div>
           
           <div className="col-12 col-sm-12 col-md-4 col-lg-4">
         
-          <img src= {require('../../img/partners/portugal.png')}/>
+          <img alt="" src= {require('../../img/partners/portugal.png')}/>
             
           </div>
           
           <div className="col-12 col-sm-12 col-md-4 col-lg-4">
         
-          <img src= {require('../../img/partners/switzerland.png')}/>
+          <img alt="" src= {require('../../img/partners/switzerland.png')}/>
             
           </div>
           </div>
@@ -111,25 +111,25 @@ class Curators extends Component {
 
           <div className="col-12 col-sm-12 col-md-4 col-lg-4">
         
-          <img src= {require('../../img/partners/cinemateca.png')}/>
+          <img alt="" src= {require('../../img/partners/cinemateca.png')}/>
             
           </div>
           
           <div className="col-12 col-sm-12 col-md-4 col-lg-4">
         
-          <img src= {require('../../img/partners/camoes.png')}/>
+          <img alt="" src= {require('../../img/partners/camoes.png')}/>
             
           </div>
           
           <div className="col-12 col-sm-12 col-md-4 col-lg-4">
         
-          <img src= {require('../../img/partners/austrian-cultural-forum.png')}/>
+          <img alt="" src= {require('../../img/partners/austrian-cultural-forum.png')}/>
             
           </div>
           <div className="col-12 col-sm-12 col-md-12 col-lg-12">
           <br/>
 
-          <img src= {require('../../img/partners/goethe.png')}/>
+          <img alt="" src= {require('../../img/partners/goethe.png')}/>
             
           </div>
           </div>
@@ -144,19 +144,19 @@ class Curators extends Component {
 
           <div className="col-12 col-sm-12 col-md-4 col-lg-4">
         
-          <img src= {require('../../img/partners/araba.png')}/>
+          <img alt="" src= {require('../../img/partners/araba.png')}/>
             
           </div>
           
           <div className="col-12 col-sm-12 col-md-4 col-lg-4">
         
-          <img src= {require('../../img/partners/sakhnin.png')}/>
+          <img alt="" src= {require('../../img/partners/sakhnin.png')}/>
             
           </div>
           
           <div className="col-12 col-sm-12 col-md-4 col-lg-4">
         
-          <img src= {require('../../img/partners/dir-hana.png')}/>
+          <img alt="" src= {require('../../img/partners/dir-hana.png')}/>
             
           </div>
 
@@ -175,19 +175,19 @@ class Curators extends Component {
 
           <div className="col-12 col-sm-12 col-md-4 col-lg-4">
         
-          <img src= {require('../../img/partners/frac.png')}/>
+          <img alt="" src= {require('../../img/partners/frac.png')}/>
             
           </div>
           
           <div className="col-12 col-sm-12 col-md-4 col-lg-4">
         
-          <img src= {require('../../img/partners/gesher.png')}/>
+          <img alt="" src= {require('../../img/partners/gesher.png')}/>
             
           </div>
           
           <div className="col-12 col-sm-12 col-md-4 col-lg-4">
         
-          <img src= {require('../../img/partners/green.png')}/>
+          <img alt="" src= {require('../../img/partners/green.png')}/>
             
           </div>
 
@@ -199,12 +199,12 @@ class Curators extends Component {
 
           <div className="col-12 col-sm-12 col-md-6 col-lg-6 ">
         
-          <img src= {require('../../img/partners/ohel.png')}/>
+          <img alt="" src= {require('../../img/partners/ohel.png')}/>
             
           </div>
           
           <div className="col-12 col-sm-12 col-md-6 col-lg-6 ">        
-          <img src= {require('../../img/partners/first-course.png')}/>
+          <img alt="" src= {require('../../img/partners/first-course.png')}/>
             
           </div>
           </div>

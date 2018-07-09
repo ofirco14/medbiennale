@@ -6,14 +6,15 @@ import  Amoca from './components/Amoca/Amoca';
 import  About from './components/About/About';
 import  Partners from './components/Partners/Partners';
 import  Where from './components/Where/Where';
+import  Contact from './components/Contact/Contact';
+import  Thanks from './components/Thanks/Thanks';
 
 import './App.css';
 
 import {
   BrowserRouter as Router,
   Route,
-  BrowserRouter,
-  Link
+
 } from 'react-router-dom';
 class App extends Component {
   render() {
@@ -28,8 +29,12 @@ class App extends Component {
      {/*
   
       <Route exact path="/archive" component={Archive}  />
-      <Route exact path="/contact" component={Contact}  />
      */}
+
+     <Route exact path="/thanks" component={Thanks}  />
+
+     <Route exact path="/contact" component={Contact}  />
+
      <Route exact path="/where" component={Where}  />
 
      <Route exact path="/partners" component={Partners}  />
