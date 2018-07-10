@@ -12,6 +12,7 @@ class Home extends Component {
 
   render() {
 
+
     let images1 = [];
 
     for (var x = 0; x <= 24; x++) {
@@ -20,7 +21,7 @@ class Home extends Component {
 
     return (
       <div>
-      <Navigation/>
+      <Navigation />
       <Burger/>
      <div className="container">
      <div className="alwaystop">
@@ -30,8 +31,9 @@ class Home extends Component {
       
      <div className="text-center">
   
-
-        <h1>The Mediterriane Biennale</h1><br/>
+     <div className="animated fadeIn">
+        <h1 style={{textDecoration:'underline'}}>The Mediterriane Biennale</h1><br/>
+        </div>
         </div>
         </div>
         </div>
@@ -137,7 +139,7 @@ class Home extends Component {
     
 
      <h3>
-     <Link to='/curators'>Contact Us</Link>
+     <Link to='/contact'>Contact Us</Link>
 
      </h3>
 <p>

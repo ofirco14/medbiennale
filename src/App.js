@@ -8,20 +8,29 @@ import  Partners from './components/Partners/Partners';
 import  Where from './components/Where/Where';
 import  Contact from './components/Contact/Contact';
 import  Thanks from './components/Thanks/Thanks';
+import  ScrollToTopAfterLink from './components/ScrollToTopAfterLink/ScrollToTopAfterLink';
 
+import ScrollToTop from 'react-scroll-up';
 import './App.css';
 
 import {
   BrowserRouter as Router,
   Route,
-
+  
 } from 'react-router-dom';
+
+
+
 class App extends Component {
+  
   render() {
     return (
       <div>
-      
-     <Router>
+      <ScrollToTop style={{zIndex:'9999'}} showUnder={160} duration={1000}>
+      <span><i class="far fa-arrow-alt-circle-up fa-3x"></i></span>
+    </ScrollToTop>
+     <Router >
+     <ScrollToTopAfterLink>
 
      <div>
 
@@ -47,8 +56,9 @@ class App extends Component {
       <Route exact path="/" component={Intro}  />
       <Route exact path="/home" component={Home}  />
       </div>
-      </Router>
+      </ScrollToTopAfterLink>
 
+      </Router>
   </div>
      
     );

@@ -29,10 +29,12 @@ class Amoca extends Component {
         
        <div className="text-center">
     
-    
+       <div className="animated fadeIn">
+
           <h1 style={{textDecoration:'underline'}}>The Arab Museum of Contemporary Art
           </h1><br/>
-       <hr style={{borderColor:'rgba(0,0,0,.2)' , height:'1px'}}/>
+        </div>
+          <hr style={{borderColor:'rgba(0,0,0,.2)' , height:'1px'}}/>
           <ImageGallery
           showThumbnails={false}
           showFullscreenButton={false}

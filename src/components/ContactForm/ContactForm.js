@@ -24,15 +24,15 @@ class ContactForm extends Component {
             <input type="hidden" name="_next" value="/thanks" />
 
             <p className="name">
-              <input name="user_name" type="text" className="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+              <input autocomplete="off" readonly onfocus="this.removeAttribute('readonly');" name="user_name" type="text" className="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
             </p>
             
             <p className="email">
-              <input name="_replyto" type="text" className="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+              <input autocomplete="off" readonly onfocus="this.removeAttribute('readonly');" name="_replyto" type="text" className="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
             </p>
             
             <p className="text">
-              <textarea name="message" className="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+              <textarea autocomplete="off" readonly onfocus="this.removeAttribute('readonly');" name="message" className="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
             </p>
             
             

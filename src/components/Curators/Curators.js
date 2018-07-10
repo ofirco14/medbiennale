@@ -23,8 +23,10 @@ class Curators extends Component {
         
        <div className="text-center">
     
-  
+       <div className="animated fadeIn">
+
           <h1 style={{textDecoration:'underline'}}>The Curators</h1><br/>
+          </div>
           </div>
           <div className="row">
   

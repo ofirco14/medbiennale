@@ -22,8 +22,10 @@ class About extends Component {
       
      <div className="text-center">
   
+     <div className="animated fadeIn">
 
         <h1 style={{textDecoration:'underline'}}>About the biennale</h1><br/>
+        </div>
         </div>
       </div>
       </div>

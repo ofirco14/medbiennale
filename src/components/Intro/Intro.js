@@ -29,8 +29,10 @@ class Intro extends Component {
       <div className="container">
       <div className="row justify-content-center">
             <div className="text-center col-12 col-sm-12 col-md-12 col-lg-12">
+            <div className="animated fadeIn">
 
             <div style={{fontSize:'5vh',color:'white',position:'relative',top:'3vh'}}>The Middeterian Biennale • הביאנלה הים תיכונית</div>
+           </div>
             </div>
             </div>
    

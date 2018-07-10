@@ -25,11 +25,12 @@ class Contact extends Component {
         
        <div className="text-center">
     
-        
+       <div className="animated fadeIn">
+
           <h1 style={{textDecoration:'underline'}}>Contact Us
           </h1><br/>
           </div>
-
+      </div>
           </div>
           </div>
           <div className="row">

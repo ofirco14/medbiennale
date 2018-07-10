@@ -5,15 +5,35 @@ import Burger from '../Burger/Burger';
 import {NavLink} from 'react-router-dom';
 class Navigation extends Component {
 
+  state = {
+    navColor: '#003C40',
 
+  }
+
+  listenScrollEvent = e => {
+    if (window.scrollY > 200) {
+      this.setState({navColor: '#FFF8FF'})
+    } else {
+      this.setState({navColor: '#003C40'})
+    }
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.listenScrollEvent);
+    window.addEventListener("resize", this.listenResizeEvent);
+
+ 
+  }
+  
   render() {
+
     return (
 
       <div>
 
-      <Burger/>
-      <div id="navbarbg" className=""> 
-      <div className="animated bounceInLeft">
+      <Burger />
+      <div id="navbarbg" style={{backgroundColor : this.state.navColor}} className=""> 
+      <div className="">
 
 
 				<div  className="" id="navbar">
@@ -22,7 +42,7 @@ class Navigation extends Component {
         <div className="container">
         <div className="row">
         <div className="col-12 col-sm-12 col-md-12 col-lg-12">
-        <NavLink   className="paddnav1" exact to="/home"   activeStyle={{ color: 'gold' ,}}>Home</NavLink>
+        <NavLink   className="paddnav1" exact to="/home"   activeStyle={{ color: '#b8ad82' , textDecoration: 'none'}}>Home</NavLink>
         <NavLink exact to="/amoca"   className="paddnav1" activeStyle={{ color: '#b8ad82' , textDecoration: 'none' }}>Amoca</NavLink>
         <NavLink exact to="/about"    className="paddnav1" activeStyle={{ color: '#b8ad82' , textDecoration: 'none' }}>About</NavLink>
         <NavLink exact to="/curators"    className="paddnav1" activeStyle={{ color: '#b8ad82' , textDecoration: 'none' }}>Curators</NavLink>

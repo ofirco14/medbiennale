@@ -25,10 +25,12 @@ class Thanks extends Component {
         
        <div className="text-center">
     
-        
-          <h1 style={{textDecoration:'underline'}}>Thank you !
+       <div className="animated fadeIn">
 
+          <h1 style={{textDecoration:'underline'}}>Thank you !
+     
           </h1><br/>
+          </div>
          <h2>Your message has been sent successfully!</h2>
           </div>
 
