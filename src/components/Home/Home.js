@@ -49,8 +49,8 @@ class Home extends Component {
         showThumbnails={false}
         showFullscreenButton={false}
         showPlayButton={false}
-        showBullets={true}
-     
+        showBullets={false}
+      
          items={images1} 
          />
          </div>

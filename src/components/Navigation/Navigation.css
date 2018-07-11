@@ -44,7 +44,12 @@ body{
 	
 }
 
-
+.global{
+   position:fixed;
+   right:20px; 
+   top:30px;
+  
+}
 .hover a:hover{
 	color : #b8ad82;
     transition: all 0.4s;

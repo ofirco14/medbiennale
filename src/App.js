@@ -9,6 +9,8 @@ import  Where from './components/Where/Where';
 import  Contact from './components/Contact/Contact';
 import  Thanks from './components/Thanks/Thanks';
 import  ScrollToTopAfterLink from './components/ScrollToTopAfterLink/ScrollToTopAfterLink';
+import  NotFound from './components/NotFound/NotFound';
+
 
 import ScrollToTop from 'react-scroll-up';
 import './App.css';
@@ -16,6 +18,7 @@ import './App.css';
 import {
   BrowserRouter as Router,
   Route,
+  Switch,
   
 } from 'react-router-dom';
 
@@ -33,28 +36,21 @@ class App extends Component {
      <ScrollToTopAfterLink>
 
      <div>
+     <Switch>
 
-     
-     {/*
-  
-      <Route exact path="/archive" component={Archive}  />
-     */}
-
-     <Route exact path="/thanks" component={Thanks}  />
-
-     <Route exact path="/contact" component={Contact}  />
-
-     <Route exact path="/where" component={Where}  />
-
-     <Route exact path="/partners" component={Partners}  />
-
-     <Route exact path="/about" component={About}  />
-
-     <Route exact path="/curators" component={Curators}  />
-     <Route exact path="/amoca" component={Amoca}  />
-
+      <Route exact path="/thanks" component={Thanks}  />
+      <Route exact path="/contact" component={Contact}  />
+      <Route exact path="/where" component={Where}  />
+      <Route exact path="/partners" component={Partners}  />
+      <Route exact path="/about" component={About}  />
+      <Route exact path="/curators" component={Curators}  />
+      <Route exact path="/amoca" component={Amoca}  />
       <Route exact path="/" component={Intro}  />
       <Route exact path="/home" component={Home}  />
+      <Route component={NotFound}  />
+
+      </Switch>
+
       </div>
       </ScrollToTopAfterLink>
 
