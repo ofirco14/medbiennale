@@ -22,7 +22,7 @@ class NotFound extends Component {
   <span>4</span>
 </section>
 <div class="link-container">
-  <a  href="http://localhost:3000/" class="more-link">Visit Home!</a>
+  <a  href="https://mediterraneanbiennale.herokuapp.com/" class="more-link">Visit Home!</a>
 </div>
         
         </div>
