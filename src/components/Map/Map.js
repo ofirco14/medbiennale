@@ -34,40 +34,40 @@ class MapContainer extends Component {
             lat: 32.864167,
             lng: 35.294546999999966
           }}
-          zoom={14}
+          zoom={12}
           onClick={this.onMapClicked}>
        
           <Marker
           onClick={this.onMarkerClick}
-          title={'#PLACE 1'}
-          name={'Address number 1#'}
-          position={{lat: 32.864167, lng: 35.294546999999966}} />
-          
+          title={'https://goo.gl/maps/AZ4ZkrntV8T2'}
+          name={'Name:Michas Hummus - Aldoha 6 Saknin '}
+          position={{lat: 32.862890, lng: 35.306119}} />
           <Marker
           onClick={this.onMarkerClick}
-          title={'#PLACE 2'}
-          name={'Address number 2 #'}
-          position={{lat: 32.868240234061936, lng: 35.28653658277699}} />
-          
+          title={'https://goo.gl/maps/gyJPkGZREpT2'}
+          name={'Name: Sakhnins college' }
+          position={{lat: 32.859779, lng: 35.310624}} />
           <Marker
           onClick={this.onMarkerClick}
-          title={'#PLACE 3'}
-          name={'Address number 3 #'}
+          title={'https://goo.gl/maps/RGd5EvABnSt'}
+          name={'Name: Madams Hummus - Aldoha 55 '}
           position={{lat: 32.869213456985975, lng: 35.29680810219952}} />
-          
                     
           <Marker
           onClick={this.onMarkerClick}
-          title={'#PLACE 4'}
-          name={'Address number 4 #'}
-          position={{lat: 32.866654218261765, lng: 35.30308849460789}} />
-          
-          <InfoWindow
+          title={'https://goo.gl/maps/zBtwhiRY8x32'}
+          name={'Name: Yarras resturant'}
+          position={{lat: 32.822042, lng: 35.190056}} />
+        
+          <InfoWindow 
           marker={this.state.activeMarker}
           visible={this.state.showingInfoWindow}>
-            <div>
-              <h1>{this.state.selectedPlace.name}</h1>
-            </div>
+            <div >
+              {this.state.selectedPlace.name}
+              <br/>
+              <a target="_blank" href={this.state.selectedPlace.title} class="go">LET'S GO !</a>
+
+              </div>
         </InfoWindow>
           </Map>
           </div>
