@@ -38,7 +38,7 @@ class Burger extends Component {
 
         <ReactMenu isOpen={this.state.menuOpen}  className="menu" width={'200px'} >
   
-        <NavLink activeStyle={{color: 'brown' , textDecoration: 'none' }}  exact to="/home" id="home"  className="paddnav menu-item"><i className="fas fa-home "  ></i> Home</NavLink>
+        <NavLink activeStyle={{color: 'brown' , textDecoration: 'none' }}  exact to="/" id="home"  className="paddnav menu-item"><i className="fas fa-home "  ></i> Home</NavLink>
         <NavLink activeStyle={{ color: 'brown' , textDecoration: 'none' }} exact to="/amoca" id="amoca"   className="paddnav menu-item"><i className="fas fa-users"></i> AMOCA</NavLink>
         <NavLink activeStyle={{ color: 'brown' , textDecoration: 'none' }} exact to="/about" id="about"   className="paddnav menu-item"><i className="fas fa-question"></i> About</NavLink>
         <NavLink activeStyle={{ color: 'brown' , textDecoration: 'none' }} exact to="/curators" id="curators"   className="paddnav menu-item"><i className="fas fa-users"></i> Curators</NavLink>

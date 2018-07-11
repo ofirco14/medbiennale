@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Intro from './components/Intro/Intro';
 import  Home from './components/Home/Home';
 import  Curators from './components/Curators/Curators';
 import  Amoca from './components/Amoca/Amoca';
@@ -45,8 +44,7 @@ class App extends Component {
       <Route exact path="/about" component={About}  />
       <Route exact path="/curators" component={Curators}  />
       <Route exact path="/amoca" component={Amoca}  />
-      <Route exact path="/" component={Intro}  />
-      <Route exact path="/home" component={Home}  />
+      <Route exact path="/" component={Home}  />
       <Route component={NotFound}  />
 
       </Switch>
