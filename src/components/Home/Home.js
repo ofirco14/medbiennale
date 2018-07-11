@@ -32,7 +32,7 @@ class Home extends Component {
      <div className="text-center">
   
      <div className="animated fadeIn">
-        <h1 style={{textDecoration:'underline'}}>The Mediterriane Biennale</h1><br/>
+        <h1 style={{textDecoration:'underline'}}>The Mediterranean Biennale</h1><br/>
         </div>
         </div>
         </div>

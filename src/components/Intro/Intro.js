@@ -31,7 +31,7 @@ class Intro extends Component {
             <div className="text-center col-12 col-sm-12 col-md-12 col-lg-12">
             <div className="animated fadeIn">
 
-            <div style={{fontSize:'40px',color:'white',position:'relative',top:'3vh'}}>The Middeterian Biennale • הביאנלה הים תיכונית</div>
+            <div style={{fontSize:'40px',color:'white',position:'relative',top:'3vh'}}>The Mediterranean Biennale • הביאנלה הים תיכונית</div>
            </div>
             </div>
             </div>
