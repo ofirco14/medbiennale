@@ -1,7 +1,8 @@
 
 import React, { Component } from 'react';
 import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
-
+import waze from '../../img/navicons/waze.png'
+import gmap from '../../img/navicons/gmaps.png'
 
 import './Map.css';
 
@@ -11,20 +12,30 @@ class MapContainer extends Component {
         showingInfoWindow: false,
         activeMarker: {},
         selectedPlace: {},
+        linkLat : '',
+        linkLng : '',
       };
     onMarkerClick = (props, marker, e) =>
+      
     this.setState({
       selectedPlace: props,
       activeMarker: marker,
-      showingInfoWindow: true
-    });
-  render() {
+      showingInfoWindow: true,
+      linkLat : marker.getPosition().lat(),
+      linkLng : marker.getPosition().lng()
+    }
+  );
+
+
+    render() {
     const style = {
-        width: '100%',
+      
+        height:'100vh'
       }
+      
 
     return (
-        <div>
+  <div className="middle">
 
 
         <Map
@@ -39,38 +50,39 @@ class MapContainer extends Component {
        
           <Marker
           onClick={this.onMarkerClick}
-          title={'https://goo.gl/maps/AZ4ZkrntV8T2'}
-          name={'Name:Michas Hummus - Aldoha 6 Saknin '}
+          title={'Michas Hummus'}
+          name={'Michas Hummus - Aldoha 6 Saknin '}
           position={{lat: 32.862890, lng: 35.306119}} />
           <Marker
           onClick={this.onMarkerClick}
-          title={'https://goo.gl/maps/gyJPkGZREpT2'}
-          name={'Name: Sakhnins college' }
+          title={'Sakhnins college'}
+          name={'Sakhnins college' }
           position={{lat: 32.859779, lng: 35.310624}} />
           <Marker
           onClick={this.onMarkerClick}
-          title={'https://goo.gl/maps/RGd5EvABnSt'}
-          name={'Name: Madams Hummus - Aldoha 55 '}
+          title={'Madams Hummus'}
+          name={'Madams Hummus - Aldoha 55 '}
           position={{lat: 32.869213456985975, lng: 35.29680810219952}} />
-                    
+               
           <Marker
           onClick={this.onMarkerClick}
-          title={'https://goo.gl/maps/zBtwhiRY8x32'}
-          name={'Name: Yarras resturant'}
+          title={'Yarras resturant'}
+          name={'Yarras resturant'}
           position={{lat: 32.822042, lng: 35.190056}} />
-        
-          <InfoWindow 
+          
+          <InfoWindow onClose={this.onInfoWindowClose} 
           marker={this.state.activeMarker}
           visible={this.state.showingInfoWindow}>
             <div >
-              {this.state.selectedPlace.name}
-              <br/>
-              <a target="_blank" href={this.state.selectedPlace.title} class="go">LET'S GO !</a>
-
+              <h6 style={{color:'rgb(184, 173, 130)'}}>{this.state.selectedPlace.name}</h6>
+              <a href={ "https://www.google.com/maps/?q=" + this.state.linkLat + "," +  this.state.linkLng } target="_blank"><img alt="gmap" src={gmap}/></a>
+              <a href={ "https://waze.com/ul?ll=" + this.state.linkLat + "," + this.state.linkLng  + "&navigate=yes"} target="_blank"><img alt="waze" src={waze}/></a>
               </div>
         </InfoWindow>
           </Map>
           </div>
+
+
     );
     
   }
