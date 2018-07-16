@@ -15,7 +15,7 @@ class NotFound extends Component {
 
         <div style={{position:'relative',top:'10vh',fontWeight:'bold'}}>
         <h1>Oppppssss...</h1>
-<p class="zoom-area"><b>Sorry!</b> page not found! </p>
+<p class="zoom-area"><b>PAGE UNDER CONSTRUCTION</b>  </p>
 <section class="error-container">
   <span>4</span>
   <span><span class="screen-reader-text">0</span></span>

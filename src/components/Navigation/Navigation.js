@@ -43,9 +43,12 @@ class Navigation extends Component {
       <div id="navbarbg" style={{backgroundColor : this.state.navColor}} className=""> 
       <div className="">
       <div className="global"  >
+
       <Link style={{color:this.state.globalColor}} to="/">
       <i class="fas fa-globe fa-2x"></i>
       </Link> 
+      <div className="soon" style={{color:this.state.globalColor}}>SOON!</div>
+
       </div>
 
 				<div  className="" id="navbar">
